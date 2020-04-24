@@ -3,13 +3,13 @@
     <castshadow />
     <group>
         <variant>
-            <mesh>skeletal/new/m_tunic_long.dae</mesh>
+            <mesh>skeletal/new/m_naked.dae</mesh>
             <props>
                 <prop actor="props/units/heads/new/head_onepunch.xml" attachpoint="head" />
                 <prop actor="props/units/capes/cape_onepunch.xml" attachpoint="root" />
             </props>
             <textures>
-                <texture file="skeletal/maur_isp_b.png" name="baseTex" />
+                <texture file="skeletal/saitama_body.png" name="baseTex" />
             </textures>
         </variant>
     </group>

@@ -79,5 +79,5 @@
         <variant file="biped/cape_build_farm.xml" />
         <variant file="biped/death_cape.xml" />
     </group>
-    <material>player_trans.xml</material>
+    <material>alphatest.xml</material>
 </actor>

@@ -16,8 +16,8 @@
                 <Crush>1000.0</Crush>
             </Damage>
             <MaxRange>3.5</MaxRange>
-            <PrepareTime>375</PrepareTime>
-            <RepeatTime>750</RepeatTime>
+            <PrepareTime>100</PrepareTime>
+            <RepeatTime>100</RepeatTime>
             <PreferredClasses datatype="tokens">Human Siege</PreferredClasses>
         </Melee>
     </Attack>
@@ -37,6 +37,18 @@
         <Icon>units/one_punch_man.png</Icon>
         <RequiredTechnology>phase_village</RequiredTechnology>
     </Identity>
+    <UnitMotion>
+        <WalkSpeed op="mul">2.10</WalkSpeed>
+    </UnitMotion>
+    <Sound>
+        <SoundGroups>
+            <select>voice/onepunch/onepunch_select.xml</select>
+            <order_walk>voice/onepunch/onepunch_walk.xml</order_walk>
+            <order_attack>voice/onepunch/onepunch_attack.xml</order_attack>
+            <order_garrison>voice/onepunch/onepunch_garrison.xml</order_garrison>
+            <death>voice/onepunch/onepunch_death.xml</death>
+        </SoundGroups>
+    </Sound>
     <VisualActor>
         <Actor>units/athenians/hero_infantry_swordsman_onepunch.xml</Actor>
     </VisualActor>
