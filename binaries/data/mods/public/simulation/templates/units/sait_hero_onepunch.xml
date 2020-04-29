@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Entity parent="template_unit_hero_infantry_swordsman">
     <Auras datatype="tokens">
-        units/heroes/athen_hero_onepunch
+        units/heroes/sait_hero_onepunch
       </Auras>
     <Armour>
         <Hack>100</Hack>
@@ -30,7 +30,7 @@
         </Resources>
     </Cost>
     <Identity>
-        <Civ>athen</Civ>
+        <Civ>sait</Civ>
         <Lang>greek</Lang>
         <GenericName>One Punch Man</GenericName>
         <SpecificName>Saitama</SpecificName>
@@ -50,6 +50,6 @@
         </SoundGroups>
     </Sound>
     <VisualActor>
-        <Actor>units/athenians/hero_infantry_swordsman_onepunch.xml</Actor>
+        <Actor>units/saitamans/hero_infantry_swordsman_onepunch.xml</Actor>
     </VisualActor>
 </Entity>

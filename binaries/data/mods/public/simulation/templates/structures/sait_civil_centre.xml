@@ -4,17 +4,19 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>athen</Civ>
-    <SpecificName>Agora</SpecificName>
+    <Civ>sait</Civ>
+    <SpecificName>Hero Association</SpecificName>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_javelinist_b
       units/{civ}_infantry_slinger_b
       units/{civ}_cavalry_javelinist_b
+      units/{civ}_hero_onepunch
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/athenians/civil_centre.xml</Actor>
+    <Actor>structures/romans/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>

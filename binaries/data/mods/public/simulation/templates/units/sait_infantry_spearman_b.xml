@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/sait_tower_artillery
+      structures/sait_gymnasium
+      structures/sait_theater
+      structures/sait_prytaneion
+      structures/sait_royal_stoa
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sait</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/sait_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Saitaman Hoplite</GenericName>
+    <SpecificName>Hoplítēs Saitamascus</SpecificName>
+    <Icon>units/athen_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/sait_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

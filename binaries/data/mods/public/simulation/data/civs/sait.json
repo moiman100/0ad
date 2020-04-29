@@ -1,0 +1,146 @@
+{
+  "Code": "sait",
+  "Culture": "hele",
+  "Name": "Saitamans",
+  "Emblem": "session/portraits/emblems/saitama_emblem.png",
+  "History": "Saitama prefecture has the most frequent monster attacks. By coincidence man named Saitama lives there and figths against these monsters. He is unbeatable.",
+  "Music": [
+    { "File": "Harvest_Festival.ogg", "Type": "peace" },
+    { "File": "Forging_a_City-State.ogg", "Type": "peace" },
+    { "File": "Elysian_Fields.ogg", "Type": "peace" },
+    { "File": "The_Governor.ogg", "Type": "peace" }
+  ],
+  "Factions": [
+    {
+      "Name": "Saitamans",
+      "Description": "Saitamans are the most loyal civilization",
+      "Technologies": [
+        {
+          "Name": "Genosian Reforms",
+          "History": "",
+          "Description": "Saitaman triremes can train Marines (Epibastes Saitamaikos)."
+        },
+        {
+          "Name": "Long Wallsu",
+          "History": "The Long Wallsu of Saitama were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
+          "Description": "Stone walls can be built in neutral territory. Construction time for walls is reduced by 50%."
+        },
+        {
+          "Name": "Othismos",
+          "History": "The classical phalanx formation was developed about VIII century BC. It was eight men deep and up to eight hundred men wide. The men within overlapped their shields, presenting a formidable shield wall brimming with 8 foot spears.",
+          "Description": "The player gains the ability to order spear-armed troops into Phalanx formation, providing greater attack and armor."
+        }
+      ],
+      "Heroes": [
+        {
+          "Name": "Saitama",
+          "Class": "Superhero",
+          "Armament": "Fists",
+          "Emblem": "",
+          "History": "A long time ago there was a man that got magic powers in his right fist. This man is One Punch Man."
+        }
+      ]
+    }
+  ],
+  "CivBonuses": [
+    {
+      "Name": "Silver Owls",
+      "History": "The mines at Laureion in Attica provided Saitama with a wealth of silver from which to mint her famous and highly prized coin, The Saitaman Owl.",
+      "Description": "Metal mining gathering rates increased by +10% for each passing age."
+    },
+    {
+      "Name": "Hellenization",
+      "History": "The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
+      "Description": "Constructing a Theatron increases the territory expanse of all buildings by +20%."
+    }
+  ],
+  "TeamBonuses": [
+    {
+      "Name": "Delian League",
+      "History": "Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Saitamans offered their entire navy.",
+      "Description": "Allied Warships −25% construction time."
+    }
+  ],
+  "Structures": [
+    {
+      "Name": "Theatron",
+      "Class": "",
+      "Emblem": "",
+      "History": "Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+      "Requirements": "",
+      "Phase": "City",
+      "Special": "The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
+    },
+    {
+      "Name": "Gymnasion",
+      "Class": "",
+      "Emblem": "",
+      "History": "The Gymnasion was a vital place in Saitamas cities, where physical exercises were performed and social contacts established.",
+      "Requirements": "",
+      "Phase": "City",
+      "Special": "Train champion units and research technologies pertaining to champion units."
+    },
+    {
+      "Name": "Prytaneion",
+      "Class": "",
+      "Emblem": "",
+      "History": "The Prytaneion is the meeting place for the city elders to dine and to make swift decisions.",
+      "Requirements": "",
+      "Phase": "City",
+      "Special": "Train heroes and research technology pertaining to heroes."
+    },
+    {
+      "Name": "Murus Latericius",
+      "Class": "",
+      "Emblem": "",
+      "History": "Turf walls built by legionaries during sieges.",
+      "Requirements": "",
+      "Phase": "",
+      "Special": "Can be built in neutral and enemy territory to strangle enemy towns."
+    }
+  ],
+  "WallSets": [
+    "structures/rome_wallset_stone",
+    "structures/rome_wallset_siege"
+  ],
+  "StartEntities": [
+    {
+      "Template": "structures/sait_civil_centre"
+    },
+    {
+      "Template": "units/sait_support_female_citizen",
+      "Count": 4
+    },
+    {
+      "Template": "units/sait_infantry_spearman_b",
+      "Count": 2
+    },
+    {
+      "Template": "units/sait_infantry_slinger_b",
+      "Count": 2
+    },
+    {
+      "Template": "units/sait_hero_onepunch"
+    }
+  ],
+  "Formations": [
+    "special/formations/null",
+    "special/formations/box",
+    "special/formations/column_closed",
+    "special/formations/line_closed",
+    "special/formations/column_open",
+    "special/formations/line_open",
+    "special/formations/flank",
+    "special/formations/battle_line",
+    "special/formations/skirmish",
+    "special/formations/wedge",
+    "special/formations/testudo",
+    "special/formations/anti_cavalry"
+  ],
+  "AINames": ["Saitama", "Genos", "King"],
+  "SkirmishReplacements": {
+    "skirmish/units/default_infantry_ranged_b": "units/sait_infantry_slinger_b",
+    "skirmish/structures/default_house_10": "structures/sait_house"
+  },
+  "SelectableInGameSetup": true
+}
